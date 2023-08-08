@@ -1,8 +1,6 @@
 custom:
   test: 12345
 spring:
-  application:
-    name: workflow-service
   zipkin:
     baseUrl: http://hexadb:9411/
   cloud:
