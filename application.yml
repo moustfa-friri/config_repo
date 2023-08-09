@@ -2,7 +2,7 @@ customprop:
   test: 12345
 spring:
   zipkin:
-    baseUrl: http://hexadb:9411/
+    base-url: http://hexadb:9411/
   cloud:
     compatibility-verifier:
       enabled: true
