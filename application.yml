@@ -54,4 +54,4 @@ management:
 management:
   zipkin:
     tracing:
-      endpoint: hexadb:9411/api/v2/spans  
+      endpoint: http://hexadb:9411/api/v2/spans  
