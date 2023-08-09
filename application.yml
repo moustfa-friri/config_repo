@@ -1,4 +1,4 @@
-custom:
+customprop:
   test: 12345
 spring:
   zipkin:
