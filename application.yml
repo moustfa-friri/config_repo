@@ -12,7 +12,7 @@ spring:
         jwt:
           issuer-uri: http://localserver:9900
   log:
-    level: debug
+    level: info
   jpa:
     show-sql: true
     hibernate:
