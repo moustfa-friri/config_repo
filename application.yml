@@ -10,7 +10,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localserver:9900
+          issuer-uri: http://authorizationserver:9900
   log:
     level: info
   jpa:
@@ -38,7 +38,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://eurekahost:8761/eureka}
 custom:
   security:
     expose-unsecured-urls: true
